@@ -1,0 +1,95 @@
+# ------------------------------
+
+# 🔐 Secrets & Sensitive Data
+
+# ------------------------------
+
+*.env
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+*.secret
+secrets.json
+appsettings.json
+local.settings.json
+
+# Azure / credentials
+
+*.publishsettings
+*.azureauth
+*.pscreds
+*.credentials
+
+# ------------------------------
+
+# 🧠 PowerShell
+
+# ------------------------------
+
+*.psd1
+*.psm1
+
+# (optional: ignore compiled or temp outputs if any)
+
+*.ps1xml
+
+# ------------------------------
+
+# 💻 VS Code
+
+# ------------------------------
+
+.vscode/
+*.code-workspace
+
+# ------------------------------
+
+# 🧾 Logs & Temp Files
+
+# ------------------------------
+
+*.log
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+*.old
+
+# Windows
+
+Thumbs.db
+Desktop.ini
+
+# ------------------------------
+
+# 📦 Node / Python (if used later)
+
+# ------------------------------
+
+node_modules/
+**pycache**/
+*.pyc
+
+# ------------------------------
+
+# 🧪 Test / Output files
+
+# ------------------------------
+
+output/
+dist/
+build/
+*.csv
+*.xlsx
+
+# ------------------------------
+
+# 🗂️ Custom folders
+
+# ------------------------------
+
+TMP1/
