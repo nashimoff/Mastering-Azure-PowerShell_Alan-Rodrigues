@@ -12,3 +12,9 @@ $y
 
 $z=$x+$y
 $z
+
+$CourseName="Azure PowerShell"
+"The name of this course is $CourseName"
+
+$x.GetType()
+$CourseName.GetType()
