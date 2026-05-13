@@ -9,3 +9,6 @@ $y
 
 "The value of x is $x"
 "The value of y is $y"
+
+$z=$x+$y
+$z
